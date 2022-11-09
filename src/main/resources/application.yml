@@ -1,0 +1,14 @@
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /documentation/swagger-ui
+    tagsSorter: alpha
+    display-request-duration: true
+  api-docs:
+    enabled: true
+    path: /documentation/openapi
+    groups:
+      enabled: true
+  group-configs:
+    - group: public
+      packages-to-scan: com.example.springdocnative
